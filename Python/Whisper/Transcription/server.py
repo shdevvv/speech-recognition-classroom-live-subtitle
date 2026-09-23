@@ -3,7 +3,7 @@ import io
 import wave
 import numpy as np
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
-from faster-whisper import WhisperModel
+from faster_whisper import WhisperModel  # <-- BENAR (menggunakan garis bawah _)
 
 app = FastAPI(title="TeacherLiveCaption ASR Engine")
 
