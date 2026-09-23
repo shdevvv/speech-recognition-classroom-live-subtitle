@@ -1,0 +1,11 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+faster-whisper>=0.10.0
+pyaudio>=0.2.13
+sounddevice>=0.4.6
+librosa>=0.10.0
+reportlab>=4.0.0
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+websockets>=11.0
+numpy>=1.24.0
