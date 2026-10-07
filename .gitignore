@@ -1,0 +1,162 @@
+# VS Code
+.vscode
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# PyTorch/HuggingFace model cache (large files)
+Python/Whisper/Model/models--*/
+Python/Whisper/Model/blobs/
+Python/Whisper/Model/snapshots/
+Python/Whisper/Model/.locks/
+Python/Whisper/Model/*.bin
+Python/Whisper/Model/*/
+!Python/Whisper/Model/.gitkeep
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Distribution / packaging
+.Python
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# IDEs and editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+
+# Node / Frontend (if present)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+.eslintcache
+*.tsbuildinfo
+
+# Tauri
+target/
+dist/
+src-tauri/target/
+Tauri/target/
+**/target/
+
+# Build outputs
+out/
+output/
+build/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# # Audio/Video files
+# *.wav
+# *.mp3
+# *.mp4
+# *.m4a
+# *.flac
+# *.ogg
+# *.avi
+
+# Model files (large binaries)
+*.bin
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.ckpt
+*.safetensors
+
+# Docker
+.dockerignore
+
+# Cache directories
+.cache/
+.huggingface/
+.hf_cache/
+
+# Misc
+CACHEDIR.TAG
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Keep .gitkeep files
+!.gitkeep
+!**/.gitkeep
